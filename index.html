@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog del proyecto - La Salud En Costa Rica</title>
+
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: rgb(175, 226, 255);
+        }
+        .centrado {
+            text-align: center;
+        }
+        p {
+            max-width: 600px; 
+            margin: 0 auto; 
+            text-align: justify; 
+            line-height: 1.6; 
+            margin-bottom: 30px; 
+            line-height: 1.5;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center; 
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .boton {
+            background-color: #47a0c4;
+            color: rgb(0, 0, 0);
+            padding: 30px 50px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .boton:hover {
+            box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
+        }
+        .Imagen {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            width: 500px;
+            height: auto;
+            border: 5px solid #47a0c4;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centrado"><u>La Salud en Costa Rica</u></h1>
+    <h2 class="centrado"><u>Proyecto de Cívica - I Periodo - III Actividad</u></h2>
+    <p class="centrado">
+        Profesor: <u>Carlos Gonzáles G.</u><br>
+        Estudiante: <u>Mauricio Andrés Trigueros Sánchez</u><br>
+        Sección: <u>11-2</u>
+    </p>
+    <h3 class="centrado">
+        Blog diseñado para entender el sistema de salud público y privado de Costa Rica, por un estudiante del Colegio Técnico Profesional de Atenas.
+    </h3>
+    <div class="contenedor">
+        <button class="boton" onclick="window.location.href='reglamento.html';">Leyes</button>
+        <button class="boton" onclick="window.location.href='instituciones.html';">Instituciones</button>
+        <button class="boton" onclick="window.location.href='publica.html';">Salud pública</button>
+        <button class="boton" onclick="window.location.href='privada.html';">Salud privada</button>
+    </div>
+
+    <img src="https://codipacsa.com/wp-content/uploads/2024/04/dia-mundial-de-la-salud.jpg" 
+        class="Imagen">
+    
+</body>
+</html>
